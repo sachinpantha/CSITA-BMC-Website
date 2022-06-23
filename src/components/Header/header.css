@@ -40,3 +40,11 @@
 .nav-area li a:hover{
     color: red;
 }
+.typewriter{
+    position: absolute;
+    top: 50vh;
+    left: 575px;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
