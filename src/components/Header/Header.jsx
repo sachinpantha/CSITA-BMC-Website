@@ -1,16 +1,21 @@
-import React from 'react'
-import "./header.css"
+import React from "react";
+import "./header.css";
+import IMG from "../../Assets/logohero.png";
 const Header = () => {
   return (
-    <div>
+      <section className="header">
+      <div className="logo">
+        <img src={IMG} alt="" />
+      </div>
+      <div className="nav-area">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Partners</a></li>
+      </div>
+      </section>
+  );
+};
 
-<section className='header'>
-
-    
-</section>
-
-    </div>
-  )
-}
-
-export default Header
+export default Header;

@@ -15,3 +15,28 @@
     position: relative;
  
 }
+.logo img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 35px;
+    top: 36px;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 71px;
+    padding-right: 10px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 33px;
+}
+.nav-area li a:hover{
+    color: red;
+}
