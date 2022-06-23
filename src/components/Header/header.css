@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 
+
+}
+html{
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -23,6 +27,7 @@
     top: 36px;
 }
 .nav-area{
+   
     float: right;
     list-style: none;
     margin-top: 71px;

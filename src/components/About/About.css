@@ -1,7 +1,10 @@
-
+html{
+  scroll-behavior: smooth;
+}
 .a-sub,.a-desc{
     font-family: 'Poppins', sans-serif;
 }
+
 .about{
     height:100vh;
     overflow-x: hidden;
