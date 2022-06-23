@@ -8,3 +8,12 @@
     background-color: #1F253D;
     color: #ffff;
 }
+.Title-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
