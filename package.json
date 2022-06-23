@@ -9,9 +9,9 @@
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-particles-js": "^3.6.0",
     "react-scripts": "5.0.1",
-    "react-tsparticles": "^2.1.0",
-    "tsparticles": "^2.1.0",
+    "tsparticles": "^1.33.3",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
