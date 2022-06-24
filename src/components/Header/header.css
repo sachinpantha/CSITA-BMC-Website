@@ -42,22 +42,21 @@ transition: all 0.5s ease;
 }
 .navlinks{
     flex: 0.8;
+    gap: 2em;
     height: 100%;
     display: flex;
 justify-content: flex-end;
 align-items: center;
 }
-.nav-area li{
+.nav-area .link{
     display: inline-block;
 }
-.nav-area li a{
+.nav-area .link{
     color: #fff;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    padding: 33px;
-}
-.nav-area li a:hover{
-    color: red;
+    padding: 10px 5px;
+    cursor: pointer;
 }
 .typewriter{
     position: absolute;
@@ -99,4 +98,27 @@ align-items: center;
 }
 .toggle{
     background-color: rgba(0,0,0,0.3);
+}
+.navlinks .link{
+position: relative;
+flex-direction: column;
+align-items: center;
+}
+.navlinks .link::after{
+  width: 0%;
+  margin: 0 auto;
+  height: 3px;
+  border-radius: 99px;
+  transition: width 0.4s ease;
+  position: absolute;
+  top: 100%;
+  content: "";
+  left: 0;
+  background-color: red;
+}
+.navlinks .link:hover::after{
+  width: 100%;
+}
+.active{
+    color: red;
 }

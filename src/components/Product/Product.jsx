@@ -8,7 +8,7 @@ const Product = ({img,title,link,id}) => {
           <span className='p-title'>{title}</span>
       </div>
   
-        <img src={img} alt="" className='p-img' />
+        <img src={img} alt="" className='event-img' />
     </a>
     </>
   )

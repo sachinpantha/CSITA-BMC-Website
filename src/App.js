@@ -4,6 +4,7 @@ import About from "../src/components/About/About"
 import Loader from './components/loader';
 import Navigation from './components/Navigation';
 import List from './components/List/List';
+import Tlist from './components/Tlist/Tlist';
 import "aos/dist/aos.css"
 import Aos from 'aos';
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
   return (
     <div>
       {loader?<Loader/>:<><Navigation/><Header />
-      <About /><List />
+      <About /><List /><Tlist />
       </>}
     </div>
   )

@@ -1,3 +1,25 @@
+export const Links=[
+  {
+    title:'Home',
+    path: 'home'
+  },
+  {
+    title:'About',
+    path: 'about'
+  },
+  {
+    title:'Events',
+    path: 'events'
+  },
+  {
+    title:'Teams',
+    path: 'teams'
+  },
+  {
+    title:'Contact',
+    path: 'contact'
+  },
+]
 export const products = [
   {
     id: 1,
