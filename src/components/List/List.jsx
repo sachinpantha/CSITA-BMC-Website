@@ -4,7 +4,8 @@ import { products } from '../../data'
 import './List.css'
 const List = () => {
   return (
-    <div className='pl'>
+    <div className='pl' id='event'>
+      <h1 className='event-heading'>Some Events Organized By CSITA-BMC</h1>
         <div className="pl-texts">        
         </div>
         <div className="pl-list">
