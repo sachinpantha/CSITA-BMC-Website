@@ -1,9 +1,9 @@
 import {React,useEffect,useState} from 'react'
 import Header from "../src/components/Header/Header"
 import About from "../src/components/About/About"
-import Programs from "../src/components/Programs/Programs";
 import Loader from './components/loader';
 import Navigation from './components/Navigation';
+import List from './components/List/List';
 import "aos/dist/aos.css"
 import Aos from 'aos';
 const App = () => {
@@ -19,8 +19,8 @@ const App = () => {
   return (
     <div>
       {loader?<Loader/>:<><Navigation/><Header />
-      <About />
-      <Programs /></>}
+      <About /><List />
+      </>}
     </div>
   )
 }
