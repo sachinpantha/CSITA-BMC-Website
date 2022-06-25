@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #F9F9F9;
+    height: 70vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+border-radius: 15px;
+    background-color: #fff;
+    width: 350px;
+    height: 130px;
+}
+.contact-item-wrapper{
+    /* margin-top: 5rem; */
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-desc{
+    padding-left: 22px;
+}
+.icon{
+    padding-left: 22px;
+}
+.logo-bmc img{
+    /* padding-bottom: 1rem; */
+    margin-bottom: 1rem;
+width: 100px;
+height: 100px;
+
+}
+.social-item-wrapper{
+    height: 200px;
+    /* margin-top: 2rem; */
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-links-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.copyright-section{
+    padding-top: 1rem;
+}
