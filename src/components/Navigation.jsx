@@ -6,7 +6,7 @@ import { Links } from '../data';
 const Navigation = () => {
     window.onscroll=()=>{
         let navbar=document.querySelector('.nav-area');
-        if(window.scrollY>300){
+        if(window.scrollY>720){
           navbar.classList.add('toggle');
         }
         else{

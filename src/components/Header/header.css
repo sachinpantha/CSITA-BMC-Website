@@ -96,8 +96,9 @@ align-items: center;
         background-color: #06283D;
     }
 }
-.toggle{
-    background-color: rgba(0,0,0,0.3);
+.toggle .link{
+    color: black;
+    font-weight: bold;
 }
 .navlinks .link{
 position: relative;

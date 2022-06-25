@@ -1,74 +1,93 @@
+import IMG from '../Team/Sushant.jpg'
+import IMG1 from '../Team/Rabin.jpg'
+import IMG2 from '../Team/Ashish.jpg'
+import IMG3 from '../Team/pradeep.jpg'
+import IMG4 from '../Team/sachin.jpg'
+import IMG5 from '../Team/keshab.jpg'
+import IMG6 from '../Team/saradsir.jpg'
+import IMG7 from '../Team/luna.jpg'
+import IMG8 from '../Team/harisir.jpg'
+import IMG9 from '../Team/apsana.jpg'
+import IMG10 from '../Team/ritisha.jpeg'
+import IMG11 from '../Team/suraj.jpg'
+import IMG12 from '../Team/prabin.jpg'
 export const teamdata=[
     {
         id:1,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'SUSHANT BANJADE',
+        img: IMG,
         Post: 'President'
     },
     {
         id:2,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'RABIN PANDEY',
+        img: IMG1,
         Post: 'President'
     },
     {
         id:3,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'ASHISH SHARMA',
+        img: IMG2,
         Post: 'President'
     },
     {
         id:4,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'PRADEEP PANDEY',
+        img: IMG3,
         Post: 'President'
     },
     {
         id:5,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'SACHIN PANTHA',
+        img: IMG4,
         Post: 'President'
     },
     {
         id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        Name: 'KESHAB BASHYAL',
+        img: IMG5,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:7,
+        Name: 'SARAD GYAWALI',
+        img: IMG6,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:8,
+        Name: 'LUNADEVI SAPKOTA',
+        img: IMG7,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:9,
+        Name: 'HARI BASHYAL',
+        img: IMG8,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:10,
+        Name: 'APSANA SHARMA',
+        img: IMG9,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:11,
+        Name: 'RITISHA GHIMIRE',
+        img: IMG10,
         Post: 'President'
     },
     {
-        id:6,
-        Name: 'Sushant Banjade',
-        img: 'https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/288504886_1356911201443198_6184448387329830606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xPrmhgVGT0EAX9AoeGr&_nc_ht=scontent.fktm10-1.fna&oh=00_AT-bhHTff2xsXXOYObPG0QkkEeX8RqKDt8Fzjj4x6i-vjg&oe=62BA3AFC',
+        id:12,
+        Name: 'SURAJ GAUTAM',
+        img: IMG11,
+        Post: 'President'
+    },
+    {
+        id:13,
+        Name: 'PRABIN SHARMA',
+        img: IMG12,
         Post: 'President'
     },
 ]

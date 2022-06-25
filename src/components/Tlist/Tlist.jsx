@@ -5,6 +5,7 @@ import './Tlist.css'
 const Tlist = () => {
   return (
     <div className='teamdata teams'>
+      <div className='Title-hero'>OUR TEAMS</div>
         <div className="teamdata-list">
             {teamdata.map((item)=>(
                 <Teams Name={item.Name} img={item.img} Post={item.Post}/>
