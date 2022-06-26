@@ -16,6 +16,10 @@ export const Links=[
     path: 'teams'
   },
   {
+    title:'Reviews',
+    path: 'myReview'
+  },
+  {
     title:'Contact',
     path: 'contact'
   },

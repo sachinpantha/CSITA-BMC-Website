@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 footer{
-    background-color: #F9F9F9;
+    background-color: #000;
     height: 70vh;
 }
 .container{
@@ -54,4 +54,5 @@ height: 100px;
 }
 .copyright-section{
     padding-top: 1rem;
+    color:#fff;
 }

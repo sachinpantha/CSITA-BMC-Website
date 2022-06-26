@@ -1,0 +1,42 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  .teamdata{
+      justify-content: center;
+      background-color: #ffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+  }
+  
+  .teamdata-list{
+      align-items: center;
+    background-color: #F2F6FB !important;
+      flex-direction: row;
+      display: grid;
+      column-gap: 8rem;
+      grid-template-columns: repeat(5,180px);
+      flex-wrap: wrap;
+      flex: 1;
+      justify-content: center;
+      width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+      .teamdata {
+        padding: 10px;
+      }
+      .teamdata-list{
+          display: flex;
+          align-items: center;
+      }
+    }
+    .Title-hero{
+      font-size: 2rem;
+      color:#005F73;
+    }
+    .parent{
+      background-color: #ffff;
+    }

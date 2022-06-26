@@ -60,7 +60,7 @@ text="csitassociationbmc@gmail.com"
     <SocialLink
    
     sicon = {
-    <IconContext.Provider value={{ color: "blue", size:"33px", className: "global-class-name" }}>
+    <IconContext.Provider value={{ color: "white", size:"33px", className: "global-class-name" }}>
     <a href='https://www.facebook.com/csit.bmc/' target="_blank">
     
     <BsFacebook />
