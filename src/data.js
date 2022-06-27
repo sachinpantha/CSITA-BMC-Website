@@ -21,7 +21,7 @@ export const Links=[
   },
   {
     title:'Contact',
-    path: 'contact'
+    path: 'FooterDiv'
   },
 ]
 export const products = [

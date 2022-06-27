@@ -10,7 +10,7 @@ import { Partdata } from "./Partdata";
 import "./Testimonials.css";
 import { Pagination } from "swiper";
 import SwiperCore, { Autoplay } from 'swiper';
-SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay]);   //import swipercore to use autoplay
 const Testimonials = () => {
   return (
     <div  className="myReview">
@@ -25,7 +25,7 @@ const Testimonials = () => {
         //   disableOnInteraction: true,
         // }}
         loop={true}
-            autoplay={true}
+            autoplay={true}  //For autoenabling the swiper functionality with infinite loop
             speed={2000} 
         spaceBetween={30}
         pagination={{
