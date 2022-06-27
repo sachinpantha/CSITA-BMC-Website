@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css/autoplay';
@@ -22,7 +22,7 @@ const Testimonials = () => {
         slidesPerView={1}
         loop={true}
             autoplay={true}  //For autoenabling the swiper functionality with infinite loop
-            speed={3000} 
+            speed={2000} 
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -38,6 +38,7 @@ const Testimonials = () => {
                   <div className="slidewrapper">
                     <img className="wrapperimg" src={item.image} alt="" />
                     <h5>{item.Name}</h5>
+                    <h5 className="secHeading">{item.Post}</h5>
                   </div>
                   <p className="para">{item.testimony}</p>
                 </div>

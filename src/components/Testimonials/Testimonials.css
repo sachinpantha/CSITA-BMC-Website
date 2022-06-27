@@ -96,3 +96,8 @@ h5{
 .imagePartners{
   background-color: #ffff;
 }
+.secHeading{
+  color: black;
+  font-size: small;
+  font-weight:bold;
+}
