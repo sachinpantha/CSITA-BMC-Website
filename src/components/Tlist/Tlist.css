@@ -2,6 +2,11 @@
 *{
     font-family: 'Poppins', sans-serif;
   }
+  .Title-hero{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
   .teamdata{
       justify-content: center;
       background-color: #ffff;

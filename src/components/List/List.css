@@ -2,6 +2,10 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+.event-heading{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .pl{
     justify-content: center;
     background-color: #F8F8F8;
