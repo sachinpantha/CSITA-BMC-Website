@@ -77,7 +77,7 @@ text="csitassociationbmc@gmail.com"
     />
     
     <h3 className='copyright-section'>© 2022 CSIT Association Of BMC. All Rights Reserved. </h3>
-    <h5 className='copyright-section'>Developed by Sachin Pantha and Sarad Gyawali</h5>
+    <h5 className='copyright-section'>Developed by <a className='credit' target='_blank' href="https://www.facebook.com/sachin.nihc">Sachin Pantha</a>  and <a className='credit' target='_blank' href="https://www.facebook.com/itsmesarad">Sarad Gyawali</a> &lt;3</h5>
     
  
     </div>

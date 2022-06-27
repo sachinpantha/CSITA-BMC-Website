@@ -20,13 +20,9 @@ const Testimonials = () => {
     <div>
       <Swiper
         slidesPerView={1}
-        // autoplay={{
-        //   delay: 1000,
-        //   disableOnInteraction: true,
-        // }}
         loop={true}
             autoplay={true}  //For autoenabling the swiper functionality with infinite loop
-            speed={2000} 
+            speed={3000} 
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -34,7 +30,7 @@ const Testimonials = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        {Testidata.map((item, key) => {
+        {Testidata.map((item, key) => {  //While rendering data on screen return the component with small brackets
           return (
             <div>
               <SwiperSlide>
@@ -59,7 +55,7 @@ const Testimonials = () => {
           autoplay={{
             delay: 1000,
           }}
-          speed={2000}
+          speed={3000}
           spaceBetween={30}
           pagination={{
             clickable: true,

@@ -17,4 +17,10 @@ export const Partdata=[
     {
         Image: 'https://imgs.search.brave.com/W-A9j2hWwZiPQigb3x4ERCSEfWSOUYvd9l-Em19-lpY/rs:fit:302:202:1/g:ce/aHR0cDovL3d3dy5z/YXJrYXJpamFnaXIu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzAxL3RodW1i/bmFpbC0xNDg0NzE2/NjY2XzEwMTcxODdf/NDg4MjU1NDA3OTIx/NTYwXzU3MjQ0MDYx/Nl9uMS5qcGc'
     },
+    {
+        Image: 'https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/150528783_1512962722236612_859192322552338678_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vfmD44lHezgAX8M6HOj&_nc_ht=scontent.fktm7-1.fna&oh=00_AT8Q2X6Ir4kmABj800teHY3c2joW5x9Hd4KTZ1q73Q1zLA&oe=62DD4A1A'
+    },
+    {
+        Image: 'https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/200654757_110938281216420_4580126278365383993_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dnQEHHge6AIAX8S5hZy&_nc_oc=AQlRARwvghgTtr-QmLYnXrJcfSBipDB3lqe0DIH2uFfb9OiA_KdMQ5xPV-uxP4z0O4o&_nc_ht=scontent.fktm7-1.fna&oh=00_AT_IE2BSvPk6NkIWu_Kw9XUPzTd2_Kni4v5BXywE3_dHQg&oe=62DF0729'
+    },
 ]

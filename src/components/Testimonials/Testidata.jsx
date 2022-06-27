@@ -9,7 +9,7 @@ export const Testidata=[
         testimony: `CSIT Association of BMC is like a home to me, Collectively with our amazing team we learn many things togetherly.`
     },
     {
-        image: Rabin,
+        image: Rabin, //We are importing objects so no JSX
         Name: 'Rabin Pandey',
         testimony: 'I have learnt many things by engaging in association and willing to collaborate with more and more people in upcoming days' 
     },
