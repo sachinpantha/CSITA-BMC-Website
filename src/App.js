@@ -2,7 +2,7 @@ import {React,useEffect,useState} from 'react'
 import Header from "../src/components/Header/Header"
 import About from "../src/components/About/About"
 import Loader from './components/loader';
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation/Navigation';
 import List from './components/List/List';
 import Tlist from './components/Tlist/Tlist';
 import Footer from './components/Footer/Footer'

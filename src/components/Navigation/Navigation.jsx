@@ -1,8 +1,9 @@
-import React from 'react'
-import IMG from "../Assets/logohero.png";
-import './Header/header.css';
+import React,{useState} from 'react'
+import IMG from "../../Assets/logohero.png";
+import {GiHamburgerMenu} from "react-icons/gi"
+import "./navigation.css"
 import {Link, scrollSpy} from 'react-scroll'
-import { Links } from '../data';
+import { Links } from '../../data';
 const Navigation = () => {
     window.onscroll=()=>{
         let navbar=document.querySelector('.nav-area');
@@ -13,12 +14,20 @@ const Navigation = () => {
           navbar.classList.remove('toggle');
         }
       }
+      const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
              <div className="nav-area">
       <div className="logo">
         <img src={IMG} alt="" />
       </div>
-      <ul className="navlinks">
+      <button className="hamburger" 
+      onClick={() => {
+        setIsNavExpanded(!isNavExpanded);
+      }}
+      >
+       <GiHamburgerMenu className='ham-icon'/>
+      </button>
+      <ul className={isNavExpanded?"navlinks expanded":"navlinks"}>
         {
           Links.map((link,id)=>(
              <Link className='link' key={`${link.title}-${id}`} to={link.path} Spy={true} activeClass='active'>{link.title}</Link>

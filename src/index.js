@@ -12,8 +12,8 @@ root.render(
     <MessengerCustomerChat
     pageId="2032410933676554"
     appId="590338082605549"
-    htmlRef="<REF_STRING>"
-  />,
+    // htmlRef="<REF_STRING>"
+  />
   </>
 
 );
