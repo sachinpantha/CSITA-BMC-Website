@@ -25,7 +25,7 @@ const Navigation = () => {
         setIsNavExpanded(!isNavExpanded);
       }}
       >
-       <GiHamburgerMenu className='ham-icon'/>
+       <GiHamburgerMenu color='white' className='ham-icon'/>
       </button>
       <ul className={isNavExpanded?"navlinks expanded":"navlinks"}>
         {
