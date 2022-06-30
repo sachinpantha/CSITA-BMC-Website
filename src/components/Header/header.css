@@ -17,7 +17,7 @@ html{
     min-height: 100vh;
     min-width: 100%;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('../../Assets/Covers.JPG');
-   
+   position: relative;
     background-position: center;
     background-size: cover;
 }
@@ -60,8 +60,10 @@ align-items: center;
 }
 .typewriter{
     position: absolute;
-    top: 45vh;
-    left: 500px;
+   inset: 0;
+   display: flex;
+align-items: center;
+justify-content: center;
     color: white;
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
