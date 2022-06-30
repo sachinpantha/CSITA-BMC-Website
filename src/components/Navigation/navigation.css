@@ -118,6 +118,10 @@
 .active {
   color: red;
 }
+.close-icon{
+  width: 25px;
+  height: 25px;
+}
 
 @media screen and (max-width: 768px) {
   .logo img{

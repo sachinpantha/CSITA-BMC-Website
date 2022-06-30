@@ -1,61 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-footer{
-    background-color: #000;
-    height: 70vh;
+footer {
+  background-color: #000;
+  height: 70vh;
 }
-.container{
-    display: flex;
-    align-items: center;
-border-radius: 15px;
-    background-color: #fff;
-    width: 350px;
-    height: 130px;
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 350px;
+  height: 130px;
 }
-.contact-item-wrapper{
-    /* margin-top: 5rem; */
-    padding-top: 5rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.contact-item-wrapper {
+  /* margin-top: 5rem; */
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.contact-desc{
-    padding-left: 22px;
+.contact-desc {
+  padding-left: 22px;
 }
-.icon{
-    padding-left: 22px;
+.icon {
+  padding-left: 22px;
 }
-.logo-bmc img{
-    /* padding-bottom: 1rem; */
-    margin-bottom: 1rem;
-width: 100px;
-height: 100px;
-
+.logo-bmc img {
+  /* padding-bottom: 1rem; */
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 100px;
 }
-.social-item-wrapper{
-    height: 200px;
-    /* margin-top: 2rem; */
-    padding-top: 5rem;
-    display: flex;
+.social-item-wrapper {
+  height: 200px;
+  /* margin-top: 2rem; */
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-links-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.copyright-section {
+  padding-top: 1rem;
+  color: #fff;
+}
+.credit {
+  color: #47b5ff;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .contact-item-wrapper {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    padding-top: 20px;
+    gap: 1rem;
+  }
+  .social-item-wrapper {
+    min-height: fit-content;
+    padding-top: 0.6rem;
+  }
+  .container {
+    height: 75px;
+  }
+  .logo-bmc img {
+    width: 60px;
+    height: 60px;
+  }
+  .heading-social {
+    font-size: 1.2em;
+  }
+  .global-class-name {
+    width: 23px;
+    height: 23px;
+  }
+  .copyright-section {
+    padding-top: 0.7em;
+    font-size: 0.83em;
+  }
+  footer {
+    max-height: fit-content;
+  }
 }
-.social-links-wrapper{
-    display: flex;
-    align-items: center;
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .contact-item-wrapper {
     flex-direction: column;
-    justify-content: center;
-    
-}
-.copyright-section{
     padding-top: 1rem;
-    color:#fff;
+    gap: 1rem;
+  }
+  .container {
+    width: 733px;
+    height: 129px;
+  }
 }
-.credit{
-    color: #47B5FF
+@media screen and (max-width: 415px) and (min-width: 390px) {
+  .social-item-wrapper {
+    padding-top: 7.6rem;
+  }
+  .contact-item-wrapper {
+    flex-direction: column;
+    padding-top: 35px;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 415px){
+    .contact-item-wrapper{
+        padding-top: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container{
+        height: 71px;
+    }
 }

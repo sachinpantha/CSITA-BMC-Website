@@ -110,7 +110,7 @@ function ContactItem(props){
       
         <span>
 
-        <h1>{props.title}</h1>
+        <h1 className='heading-social'>{props.title}</h1>
         </span>
 
         <div className="info">
