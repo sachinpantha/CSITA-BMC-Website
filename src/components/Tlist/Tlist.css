@@ -23,7 +23,7 @@
   column-gap: 5rem;
   gap: 5em;
 
-  grid-template-columns: repeat(5, 180px);
+  grid-template-columns: repeat(5, 140px);
   flex-wrap: wrap;
   flex: 1;
   justify-content: center;
@@ -33,12 +33,11 @@
   background-color: #f2f6fb;
 }
 @media screen and (max-width: 480px) {
-  /* .teamdata-list{
+  .teamdata-list{
       column-gap: 5em;
-  } */
+  }
   .teamdata {
-    /* padding: 10px; */
-    /* height: 186vh; */
+    
     height: 100%;
     background-color: #f2f6fb;
   }
@@ -61,11 +60,20 @@
 .parent {
   background-color: #ffff;
 }
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .teamdata-list {
-    column-gap: 1.2rem;
-    grid-template-columns: repeat(4, 180px);
-    padding: 5px;
-  }
 
+@media screen and (max-width: 768px) and (min-width: 480px){
+  
+    .teamdata-list {
+      column-gap: 1.2rem;
+      grid-template-columns: repeat(3, 140px);
+      padding: 5px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  
+    .teamdata-list {
+      column-gap: 1.2rem;
+      grid-template-columns: repeat(4, 140px);
+      padding: 5px;
+    }
 }

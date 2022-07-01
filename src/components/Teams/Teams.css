@@ -11,11 +11,29 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    width: 10rem;
 }
 .Name{
     color: red;
 }
+
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    .parent {
+        width: 9rem;
+      }
+}
 @media screen and (max-width: 480px) and (min-width: 320px){
+    .parent {
+        width: 9rem;
+      }
+}
+@media screen and (max-width: 768px) and (min-width: 480px){
+    .parent {
+        width: 9rem;
+      }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
     .parent {
         width: 9rem;
       }

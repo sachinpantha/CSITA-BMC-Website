@@ -32,8 +32,8 @@ const Testimonials = () => {
       >
         {Testidata.map((item, key) => {  //While rendering data on screen return the component with small brackets
           return (
-            <div>
-              <SwiperSlide>
+            <div >
+              <SwiperSlide key={item.id}>
                 <div className="hero--wrapper">
 
                 <div className="parentwrapper">
@@ -67,11 +67,11 @@ const Testimonials = () => {
           modules={[Pagination]}
           className="mySwiper2"
         >
-          {Partdata.map((item, key) => {
+          {Partdata.map((items, key) => {
             return (
-              <div>
-                <SwiperSlide>
-                  <img className="wrapperimg" src={item.Image} alt="" />
+              <div >
+                <SwiperSlide key={items.id}>
+                  <img  className="wrapperimg" src={items.Image} alt="" />
                 </SwiperSlide>
               </div>
             );
