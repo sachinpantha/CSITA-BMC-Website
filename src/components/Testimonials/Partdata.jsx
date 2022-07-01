@@ -1,26 +1,38 @@
+import img1 from "../../Assets/partners/1.png"
+import img2 from "../../Assets/partners/2.png"
+import img3 from "../../Assets/partners/3.png"
+import img4 from "../../Assets/partners/4.jpg"
+import img5 from "../../Assets/partners/5.jpg"
+import img6 from "../../Assets/partners/6.png"
+import img7 from "../../Assets/partners/7.png"
+import img8 from "../../Assets/partners/8.png"
+import img9 from "../../Assets/partners/9.jpg"
 export const Partdata=[
     {
-        Image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t1.6435-9/75166924_546573492784785_8887530470758154240_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Tols6JQCoLcAX8dH8Ql&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT88jxi7ehoifHYgn_PGyY8QswkVVPlMFEaSTJLi1H-eDQ&oe=62DC9B7F'
+        Image: img1
     },
     {
-        Image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t1.6435-9/196106490_4178713782172123_2558825364285334538_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3S_wVMdoQYQAX-yLsD7&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT_KM6GkZD4uhzUkeZZEZHQtIkEgYKJ1rnd5SKROKevj1Q&oe=62DEBA95'
+        Image: img2
     },
     {
-        Image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/245939383_393773725714393_2579164546832412873_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oGkOi8ol7xAAX9-aAxx&tn=dLyGCWnCkX5hDukj&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT_fYlbxgQ5aqqpFTtEA5RzsFrcGdNKuNDKnm-iDPV0ItQ&oe=62BD9D83'
+        Image: img3
     },
     {
-        Image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/272017865_120824230462291_5739735741040765034_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2wsBbgerRT4AX8Wjx2L&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT8_16WnFP4KUlaPb4UOtqdUE1ELRc7sitcTXU-sVxuvVQ&oe=62BDC2C9'
+        Image: img4
     },
     {
-        Image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t1.6435-9/75242195_520717251817416_3310154045468966912_n.png?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=MCNiy2yEHfQAX-fPPIq&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT8gXsT0VwHxeWRxKGcZLNtIA7tnUXkazOJITwG7KDlu7Q&oe=62DCB148'
+        Image: img5
     },
     {
-        Image: 'https://imgs.search.brave.com/W-A9j2hWwZiPQigb3x4ERCSEfWSOUYvd9l-Em19-lpY/rs:fit:302:202:1/g:ce/aHR0cDovL3d3dy5z/YXJrYXJpamFnaXIu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzAxL3RodW1i/bmFpbC0xNDg0NzE2/NjY2XzEwMTcxODdf/NDg4MjU1NDA3OTIx/NTYwXzU3MjQ0MDYx/Nl9uMS5qcGc'
+        Image: img6
     },
     {
-        Image: 'https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/150528783_1512962722236612_859192322552338678_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vfmD44lHezgAX8M6HOj&_nc_ht=scontent.fktm7-1.fna&oh=00_AT8Q2X6Ir4kmABj800teHY3c2joW5x9Hd4KTZ1q73Q1zLA&oe=62DD4A1A'
+        Image: img7
     },
     {
-        Image: 'https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/200654757_110938281216420_4580126278365383993_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dnQEHHge6AIAX8S5hZy&_nc_oc=AQlRARwvghgTtr-QmLYnXrJcfSBipDB3lqe0DIH2uFfb9OiA_KdMQ5xPV-uxP4z0O4o&_nc_ht=scontent.fktm7-1.fna&oh=00_AT_IE2BSvPk6NkIWu_Kw9XUPzTd2_Kni4v5BXywE3_dHQg&oe=62DF0729'
+        Image: img8
+    },
+    {
+        Image: img9
     },
 ]

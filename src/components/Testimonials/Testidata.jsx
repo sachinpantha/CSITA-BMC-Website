@@ -37,7 +37,7 @@ export const Testidata=[
     {
         image: Sushant,
         Name: 'Sushant Banjade',
-        testimony: 'This association is my home',
+        testimony: 'This association is my home so I am very proud of my pride month I am a gay looking so glad ',
         Post: `SEO Specialist`
     },
 

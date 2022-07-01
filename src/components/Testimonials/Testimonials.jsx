@@ -34,6 +34,8 @@ const Testimonials = () => {
           return (
             <div>
               <SwiperSlide>
+                <div className="hero--wrapper">
+
                 <div className="parentwrapper">
                   <div className="slidewrapper">
                     <img className="wrapperimg" src={item.image} alt="" />
@@ -41,6 +43,7 @@ const Testimonials = () => {
                     <h5 className="secHeading">{item.Post}</h5>
                   </div>
                   <p className="para">{item.testimony}</p>
+                </div>
                 </div>
               </SwiperSlide>
             </div>

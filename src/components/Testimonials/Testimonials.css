@@ -14,15 +14,13 @@ body {
   padding: 0;
 }
 .WellWishers{
-
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+padding: 1rem 0rem;
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 100%;
-}
+} */
 
 .swiper-slide {
   text-align: center;
@@ -66,9 +64,10 @@ body {
     align-items: center;
 }
 .slidewrapper{
+  
     display: flex;
     flex-direction: column;
-    flex: 0.2;
+    flex: 0.5;
     justify-content: center;
     align-items: center;
 }
@@ -86,12 +85,15 @@ text-align: left;
 h5{
     color: red;
 }
-.SwiperHeading,.WellWishers{
+.SwiperHeading{
   display: flex;
   background-color: #ffff;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+}
+.WellWishers{
+  text-align: center;
 }
 .imagePartners{
   background-color: #ffff;
@@ -100,4 +102,119 @@ h5{
   color: black;
   font-size: small;
   font-weight:bold;
+}
+
+
+
+/* For very small mobile devices  */
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+.parentwrapper{
+  flex-direction: column;
+}
+.para{
+  text-align: center;
+  font-size: 0.8em;
+}
+/* .slidewrapper>.wrapperimg{
+  width: 60px !important;
+  height: 60px!important;
+} */
+.wrapperimg{
+  border-radius: 100%;
+  height: 60px !important;
+  width: 60px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero--wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SwiperHeading>h2{
+  font-size: 21px;
+}
+}
+/* For Most of the Smartphones  */
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .parentwrapper{
+    flex-direction: column;
+  }
+  .para{
+    text-align: center;
+    font-size: 0.9em;
+  }
+  .wrapperimg{
+    border-radius: 100%;
+    height: 75px !important;
+    width: 75px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SwiperHeading>h2{
+    font-size: 21px;
+  }
+}
+/* For low resolution Tablets  */
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .parentwrapper{
+    flex-direction: column;
+  }
+  .para{
+    text-align: center;
+    font-size: 0.95em;
+  }
+  .wrapperimg{
+    border-radius: 100%;
+    height: 85px !important;
+    width: 85px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SwiperHeading>h2{
+    font-size: 21px;
+  }
+}
+/* For Tablets/Ipad  */
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .parentwrapper{
+    flex-direction: column;
+  }
+  .para{
+    text-align: center;
+    font-size: 1em;
+  }
+  .wrapperimg{
+    border-radius: 100%;
+    height: 93px !important;
+    width: 93px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SwiperHeading>h2{
+    font-size: 21px;
+  }
 }
