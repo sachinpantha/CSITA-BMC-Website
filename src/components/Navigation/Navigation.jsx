@@ -29,9 +29,9 @@ const Navigation = () => {
         }}
       >
         {hideHam ? (
-          <AiFillCloseSquare color="white" className="close-icon" />
+          <AiFillCloseSquare color="#7676f1" className="close-icon" />
         ) : (
-          <GiHamburgerMenu color="white" className="ham-icon" />
+          <GiHamburgerMenu color="#7676f1" className="ham-icon" />
         )}
       </button>
       <ul className={isNavExpanded ? "navlinks expanded" : "navlinks"}>

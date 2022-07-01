@@ -39,7 +39,7 @@
     justify-content: center;
     width: 100%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (min-width: 320px) {
     .pl {
       padding: 10px;
     }

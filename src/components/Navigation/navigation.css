@@ -145,14 +145,15 @@
     width: 100%;
 
     height: fit-content;
-    background-color: rgba(252, 238, 242, 0.2);
+    background-color: rgb(17, 17, 17);
+    opacity: 0.5;
   }
   .navlinks .link {
     text-align: center;
     margin: 0;
   }
   .navlinks .link {
-    color: black;
+    color: white;
 
     width: 100%;
     padding: 1rem 0;
