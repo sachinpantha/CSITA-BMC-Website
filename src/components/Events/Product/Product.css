@@ -69,9 +69,51 @@
    opacity: 1;
    transform: translateY(0);
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .p {
       width: 40%;
       height: 20vh;
     }
+  } */
+
+  /* For very small mobile devices  */
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  .p{
+    width: 120px;
+    height: 120px
   }
+  .event-heading{
+    font-size: 1em;
+  }
+}
+
+/* For Most of the Smartphones  */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .p{
+    width: 130px;
+    height: 130px
+  }
+  .event-heading{
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .p{
+    width: 160px;
+    height: 160px
+  }
+  .event-heading{
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .p{
+    width: 200px;
+    height: 200px
+  }
+  .event-heading{
+    font-size: 2em;
+  }
+}
+

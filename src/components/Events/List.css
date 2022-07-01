@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .pl-texts{
     width: 60%;
@@ -39,23 +39,24 @@
     justify-content: center;
     width: 100%;
 }
+
 @media screen and (max-width: 480px) and (min-width: 320px) {
-   .event-heading{
-    font-size: 1.2em;
-   }
-  .pl {
-      padding: 10px;
-    }
-  
-    .pl-texts {
-      width: 100%;
-    }
-  
-    .pl-desc {
-      display: none;
-    }
-    .pl-list{
-        display: flex;
-        align-items: center;
-    }
+  .event-heading{
+   font-size: 1.2em;
   }
+ .pl {
+     padding: 10px;
+   }
+ 
+   .pl-texts {
+     width: 100%;
+   }
+ 
+   .pl-desc {
+     display: none;
+   }
+   .pl-list{
+       display: flex;
+       align-items: center;
+   }
+ }

@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
- height: 100vh;
+ height: 100%;
 }
 
 .teamdata-list {
@@ -21,6 +21,8 @@
   flex-direction: row;
   display: grid;
   column-gap: 5rem;
+  gap: 5em;
+
   grid-template-columns: repeat(5, 180px);
   flex-wrap: wrap;
   flex: 1;
