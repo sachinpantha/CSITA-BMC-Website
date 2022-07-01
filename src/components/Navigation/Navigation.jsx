@@ -3,12 +3,12 @@ import IMG from "../../Assets/logohero.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillCloseSquare } from "react-icons/ai";
 import "./navigation.css";
-import { Link, scrollSpy } from "react-scroll";
+import { Link } from "react-scroll";
 import { Links } from "../../data";
 const Navigation = () => {
   window.onscroll = () => {
     let navbar = document.querySelector(".nav-area");
-    if (window.scrollY > 720) {
+    if (window.scrollY > 660) {
       navbar.classList.add("toggle");
     } else {
       navbar.classList.remove("toggle");
