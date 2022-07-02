@@ -5,19 +5,23 @@
 }
 footer {
   background-color: #000;
-  height: 80vh
+
+  height: fit-content;
   
+}
+.info>p{
+  font-size: 1.2em;
 }
 .container {
   display: flex;
   align-items: center;
   border-radius: 15px;
   background-color: #fff;
-  width: 350px;
+  width: 370px;
   height: 130px;
 }
 .contact-item-wrapper {
-  /* margin-top: 5rem; */
+
   
   padding-top: 5rem;
   display: flex;
@@ -31,14 +35,14 @@ footer {
   padding-left: 22px;
 }
 .logo-bmc img {
-  /* padding-bottom: 1rem; */
+  
   margin-bottom: 1rem;
   width: 100px;
   height: 100px;
 }
 .social-item-wrapper {
   height: 200px;
-  /* margin-top: 2rem; */
+  
  padding: 5rem 0rem;
   display: flex;
   flex-direction: column;
@@ -69,10 +73,15 @@ footer {
   }
   .social-item-wrapper {
     min-height: fit-content;
-    padding-top: 0.6rem;
+ padding: 0.6rem 0rem;
   }
   .container {
+    width: 270px;
+  
     height: 75px;
+  }
+  .info>p{
+    font-size: 0.85em;
   }
   .logo-bmc img {
     width: 60px;
@@ -89,9 +98,7 @@ footer {
     padding-top: 0.7em;
     font-size: 0.83em;
   }
- footer{
-  height: 100vh;
- }
+
 }
 
 
@@ -103,11 +110,15 @@ footer {
     
   }
   .social-item-wrapper {
-    min-height: fit-content;
-    padding-top: 0.6rem;
-  }
+    min-height: fit-content; 
+     padding: 0.6rem 0rem
+   } 
   .container {
+    width: 310px;
     height: 75px;
+  }
+  .info>p{
+    font-size: 1em;
   }
   .logo-bmc img {
     width: 60px;
@@ -119,15 +130,14 @@ footer {
   .global-class-name {
     width: 23px;
     height: 23px;
-  }
-  .copyright-section {
+  } 
+   .copyright-section {
     padding-top: 0.7em;
     font-size: 0.83em;
-  }
- footer{
-  height: 100vh;
- }
+  } 
+ 
 }
+ 
 @media screen and (max-width: 768px) and (min-width: 480px){
   .contact-item-wrapper{
       padding-top: 1rem;
@@ -137,9 +147,7 @@ footer {
   .container{
       height: 71px;
   }
-  footer{
-    height: 100vh;
-   }
+  
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .contact-item-wrapper {
@@ -151,24 +159,9 @@ footer {
     width: 733px;
     height: 129px;
   }
-  footer{
-    height: 105vh;
-   }
+  
 }
-/* @media screen and (max-width: 415px) and (min-width: 390px) {
-  .social-item-wrapper {
-    padding-top: 7.6rem;
-  }
-  .contact-item-wrapper {
-    flex-direction: column;
-    padding-top: 35px;
-    gap: 2rem;
-  }
- 
-    footer{
-      height: 100vh;
-     } 
-} */
+
 
 
 
