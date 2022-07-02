@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background-color: #fff !important;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -91,9 +91,11 @@ h5{
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  color: red;
 }
 .WellWishers{
   text-align: center;
+  color: red;
 }
 .imagePartners{
   background-color: #ffff;

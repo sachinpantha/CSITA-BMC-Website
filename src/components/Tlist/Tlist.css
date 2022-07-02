@@ -4,6 +4,7 @@
 .Title-hero {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: red !important;
 }
 .teamdata {
   justify-content: center;
@@ -22,7 +23,7 @@
   display: grid;
   column-gap: 5rem;
   gap: 5em;
-
+  padding: 10px 0px;
   grid-template-columns: repeat(5, 140px);
   flex-wrap: wrap;
   flex: 1;

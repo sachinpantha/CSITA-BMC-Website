@@ -25,6 +25,7 @@ tech and non-tech events workshops internally. Similarly, we also play a part in
 college department for technical assistance and provide suggestions based on technology
 criteria.
           </p>
+<br />
           <p className="a-desc" data-aos="fade-left" data-aos-delay={300}>
           We believe that the students should be provided with the relevant skills to prepare them
 for their career and at last we are at Butwal Multiple Campus with the motive of helping students to address their problem as well.

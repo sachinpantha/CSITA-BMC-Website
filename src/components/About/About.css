@@ -4,6 +4,9 @@ html{
 .a-sub,.a-desc{
     font-family: 'Poppins', sans-serif;
 }
+.a-title{
+  color: red;
+}
 
 .about{
     height:100vh;
@@ -67,3 +70,26 @@ html{
         }
     }
 }
+    @media screen and (max-width:820px) {
+        .about{
+          flex-direction: column;
+          text-align: center;
+          margin-top: 50px;
+        }
+    
+        .about-left {
+          width: 100%;
+        }
+    
+        .about-card {
+          height: 30vh;
+        }
+    
+        .about-card.bg {
+          display: none;
+        }
+    
+        .about-right{
+          padding: 20px;
+        }
+    }

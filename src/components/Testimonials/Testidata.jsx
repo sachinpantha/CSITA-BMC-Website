@@ -1,44 +1,45 @@
-import Rabin from '../../Team/Rabin.jpg'
+import Bishan from '../../Team/bishan.jpg'
+import Saroj from '../../Team/saroj.jpg'
 import Sujan from '../../Team/Sujan.jpg'
-import Sachin from '../../Team/sachin.jpg'
-import Sarad from '../../Team/saradsir.jpg'
-import Sushant from '../../Team/Sushant.jpg'
+import Manoj from '../../Team/manoj.jpg'
+import Mahendra from '../../Team/mahendra.jpg'
+import Prakash from '../../Team/prakash.jpg'
 export const Testidata=[
     {   id: 1,
-        image: 'https://scontent.fbwa5-1.fna.fbcdn.net/v/t1.6435-9/144654726_2854051744840331_1579267298750090882_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=oi4bvRnXLYMAX-ZQQ0G&tn=dLyGCWnCkX5hDukj&_nc_ht=scontent.fbwa5-1.fna&oh=00_AT8S0tDuNFlqp3RtJ7i2ARBh1G_pIJoXnRyrFP_CBCHX3g&oe=62DEECE5',
-        Name: 'Prakash BL Dhakal',
+        image: Bishan,
+        Name: 'Bishan Bashyal',
         testimony: `CSIT Association of BMC is like a home to me, Collectively with our amazing team we learn many things togetherly.`,
-        Post: `Mobile app developer`
+        Post: `IT Officer and Founder President of CSITA-BMC`
     },
     {   id: 2,
-        image: Rabin, //We are importing objects so no JSX
-        Name: 'Rabin Pandey',
-        testimony: 'I have learnt many things by engaging in association and willing to collaborate with more and more people in upcoming days',
-        Post: `MERN Developer` 
+        image: Saroj, //We are importing objects so no JSX
+        Name: 'Saroj Dahal',
+        testimony: '"My first session on “Roadmap to IT Career” organized by BMC was a memorable one . I felt a cosy aura while mentoring on the event. Truth to be told, I always had a good vibe with Butwal people and from this event,  I surely can say that , “ I felt it “  . Cheers to the Team"',
+        Post: `Fullstack Developer and CTO at Cliffbyte` 
     },
     {   id: 3,
-        image: Sujan, //We are importing objects so no JSX
+        image: Sujan,
         Name: 'Sujan Khatiwada',
-        testimony: '"It was a nice moment to share the experience with curious IT people at CSIT Association of BMC."',
-        Post: `Fullstack developer and founder at sathibhai.com` 
+        testimony: '"It was a nice moment to share the experience with curious IT people at CSIT Association, BMC."',
+        Post: `Fullstack Developer and founder at sathibhai.com`
     },
-    {   id: 4,
-        image: Sachin,
-        Name: 'Sachin Pantha',
-        testimony: 'Love for Technology and this association is infinite<3',
-        Post: `Blockchain Developer`
+    {   id:4,
+        image: Manoj,
+        Name: 'Manoj Pokharel',
+        testimony: '"CSIT Association of BMC speaks a lot more about Whole student problem rather than just being a group of people, they always focus on unity, Co-operation, and strengths to develop the better relationship between student and administration"',
+        Post: `President at CSIT Association of Nepal-Rupandehi`
     },
     {   id:5,
-        image: Sarad,
-        Name: 'Sarad Gyawali',
-        testimony: 'Simplicity is the ultimate sophistication',
-        Post: `Software Engineer`
+        image: Mahendra,
+        Name: 'Mahendra Kandel',
+        testimony: '"It was amazing experience to work with so energetic team at CSIT Association of BMC, It is a group of amazing talents which will surely take the institution to next level"',
+        Post: `Former President at CSITA-BMC`
     },
     {   id:6,
-        image: Sushant,
-        Name: 'Sushant Banjade',
-        testimony: 'This association is my home so I am very proud of my pride month I am a gay looking so glad ',
-        Post: `SEO Specialist`
+        image: Prakash,
+        Name: 'Prakash Dhakal',
+        testimony: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci ligula, tempor vitae velit sit amet, facilisis gravida neque. Integer vestibulum bibendum nunc eu sodales. Sed lobortis congue ipsum, at tempus ipsum gravida fermentum.',
+        Post: `Former President at CSITA-BMC`
     },
 
 ]

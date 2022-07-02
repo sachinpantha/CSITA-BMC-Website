@@ -2,14 +2,18 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+body{
+  background-color: #fff;
+}
 .event-heading{
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #F2F6FB;
+  /* background-color: #F2F6FB; */
+  color: red;
 }
 .pl{
     justify-content: center;
-    background-color: #F8F8F8;
+    /* background-color: #F8F8F8; */
     display: flex;
     flex-direction: column;
     align-items: center;
