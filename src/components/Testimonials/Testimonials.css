@@ -116,7 +116,7 @@ h5{
 }
 .para{
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.66em;
 }
 /* .slidewrapper>.wrapperimg{
   width: 60px !important;
@@ -147,7 +147,7 @@ h5{
   }
   .para{
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.66em;
   }
   .wrapperimg{
     border-radius: 100%;
@@ -174,7 +174,7 @@ h5{
   }
   .para{
     text-align: center;
-    font-size: 0.95em;
+    font-size: 0.8em;
   }
   .wrapperimg{
     border-radius: 100%;

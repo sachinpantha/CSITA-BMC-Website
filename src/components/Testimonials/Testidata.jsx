@@ -38,7 +38,7 @@ export const Testidata=[
     {   id:6,
         image: Prakash,
         Name: 'Prakash Dhakal',
-        testimony: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum orci ligula, tempor vitae velit sit amet, facilisis gravida neque. Integer vestibulum bibendum nunc eu sodales. Sed lobortis congue ipsum, at tempus ipsum gravida fermentum.',
+        testimony: 'CSIT Association of BMC एउटा परिवार हो, म यो सस्था लाई सस्था भन्दा पनि परिवार भन्न रुचाउने गर्छु। जहिले देखि यस सस्थाको जन्म भयो तेसपछी नै सम्पुर्ण बिद्यार्थीको अभिभावकको रुपमा काम गरिरहेको छ,बिद्यार्थीहरुको आवाज उठाउने र सम्बोधन गराउने काम गरिरहेको छ। यस सस्थाले क्याम्पसमै उल्लेखनीय कामहरु त गरेको छ सङ्सङै बिद्यार्थी-बिद्यार्थी बिचको घनिष्ठ आत्मियता बढाउन महत्त्वपूर्ण योगदान गरेको छ। CSIT पढ्ने बिद्यार्थी एकजुट छन भन्ने सन्देश क्याम्पसभर दिएको छ। मैले आज सम्म धेरै सस्थामा काम गरेको छु,मलाइ ती सस्थामध्य सबैभन्दा प्यारो सस्था CSITA-BMC नै हो।',
         Post: `Former President at CSITA-BMC`
     },
 
