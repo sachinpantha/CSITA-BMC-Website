@@ -3,6 +3,7 @@ import "./header.css";
 import Typewriter from "typewriter-effect";
 import Particles from "react-particles-js";
 import { particlesConfig } from "../../constant/Constant";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 const Header = () => {
   return (
     <section data-aos="fade-up" className="header" id="home">
@@ -22,6 +23,10 @@ const Header = () => {
           }}
         />
       </div>
+      <MessengerCustomerChat
+    pageId="151990145269970"
+    appId="590338082605549"
+  />
     </section>
   );
 };
