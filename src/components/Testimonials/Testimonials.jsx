@@ -15,7 +15,7 @@ const Testimonials = () => {
   return (
     <div  className="myReview">
       <div className="WellWishers">
-        <h2>What our wellwishers say</h2>
+        <h2 className="reviews--heading">What our wellwishers say</h2>
       </div>
     <div>
       <Swiper
@@ -51,7 +51,7 @@ const Testimonials = () => {
         })}
       </Swiper>
       <div className="SwiperHeading">
-        <h2>We've worked with</h2>
+        <h2  className="reviews--heading" >We've worked with</h2>
       </div>
       <div className="imagePartners">
         <Swiper

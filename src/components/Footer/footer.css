@@ -18,8 +18,12 @@ footer {
   border-radius: 15px;
   background-color: #fff;
   width: 370px;
+
   height: 130px;
+  
+  
 }
+
 .contact-item-wrapper {
 
   
@@ -64,7 +68,7 @@ footer {
   color: #47b5ff;
 }
 
-@media screen and (max-width: 320px) and (min-width: 0px) {
+@media screen and (max-width: 320px) and (min-width: 0px)  {
   .contact-item-wrapper {
     flex-direction: column;
     padding-top: 20px;
@@ -149,7 +153,7 @@ footer {
   }
   
 }
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .contact-item-wrapper {
     flex-direction: column;
     padding-top: 1rem;
@@ -162,7 +166,14 @@ footer {
   
 }
 
-
+@media screen and (max-width:1200px) and (min-width:1025px){
+  .container{
+    width: 320px;
+  }
+  .info p{
+    font-size: 14px;
+  }
+}
 
 
 

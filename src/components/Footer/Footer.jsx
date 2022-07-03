@@ -26,8 +26,10 @@ text="+9779867824520"
 <ContactItem
 icon={<IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>
 
+<a href="https://goo.gl/maps/rPLSanzeQobPvRbb7" target="_blank" rel = "noreferrer">
 
-<HiLocationMarker />
+<HiLocationMarker  />
+</a>
 
 
 
@@ -38,8 +40,10 @@ text="Butwal-Golpark"
 <ContactItem
 icon={<IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>
 
+<a href='mailto:csitassociationofbmc@gmail.com'>
 
-<MdEmail />
+<MdEmail   />
+</a>
 
 
 
@@ -53,7 +57,7 @@ text="csitassociationbmc@gmail.com"
 <div className="social-item-wrapper">
 
     <span className="logo-bmc">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
     </span>
     <div className="social-links-wrapper">
 
@@ -61,7 +65,7 @@ text="csitassociationbmc@gmail.com"
    
     sicon = {
     <IconContext.Provider value={{ color: "white", size:"33px", className: "global-class-name" }}>
-    <a href='https://www.facebook.com/csit.bmc/' target="_blank">
+    <a href='https://www.facebook.com/csit.bmc/' target="_blank" rel='noreferrer'>
     
     <BsFacebook />
     </a>
@@ -83,7 +87,7 @@ text="csitassociationbmc@gmail.com"
 <div className="footer--end">
 
 <h3 className='copyright-section '>© 2022 CSIT Association Of BMC. All Rights Reserved. </h3>
-    <h5 className='copyright-section '>Developed by <a className='credit' target='_blank' href="https://www.facebook.com/sachin.nihc">Sachin Pantha</a>  and <a className='credit' target='_blank' href="https://www.facebook.com/itsmesarad">Sarad Gyawali</a> &lt;3</h5>
+    <h5 className='copyright-section '>Developed by <a className='credit' target='_blank' href="https://www.facebook.com/sachin.nihc" rel='noreferrer'>Sachin Pantha</a>  and <a className='credit' target='_blank' href="https://www.facebook.com/itsmesarad" rel='noreferrer'>Sarad Gyawali</a> &lt;3</h5>
 </div>
     
 

@@ -33,6 +33,13 @@
 .teamdata {
   background-color: #f2f6fb;
 }
+
+
+@media screen and (max-width:320px) and (min-width: 0px){
+  .Title-hero{
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 480px) {
   .teamdata-list{
       column-gap: 5em;
@@ -54,10 +61,16 @@
     padding: 10px 0px;
   }
 }
-.Title-hero {
-  font-size: 2rem;
-  color: #005f73;
+
+@media screen and (max-width:480px) and (min-width:320px){
+  .Title-hero{
+    font-size: 20px;
+  }
 }
+
+
+
+
 .parent {
   background-color: #ffff;
 }
@@ -69,6 +82,9 @@
       grid-template-columns: repeat(3, 140px);
       padding: 5px;
     }
+    .Title-hero{
+      font-size: 24px;
+    }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px){
   
@@ -76,5 +92,8 @@
       column-gap: 1.2rem;
       grid-template-columns: repeat(4, 140px);
       padding: 5px;
+    }
+    .Title-hero{
+      font-size: 28px;
     }
 }
