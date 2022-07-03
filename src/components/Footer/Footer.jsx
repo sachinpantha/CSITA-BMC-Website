@@ -21,7 +21,7 @@ icon={<IconContext.Provider value={{ color: "black", size:"33px", className: "gl
 
 </IconContext.Provider>}
 title="Phone"
-text="+9779866142435"
+text="+9779867824520"
 />
 <ContactItem
 icon={<IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>

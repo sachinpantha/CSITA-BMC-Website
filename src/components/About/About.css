@@ -10,6 +10,7 @@ html{
 
 .about{
     height:100vh;
+    background-color: #F2F6FB;
     overflow-x: hidden;
     display: flex;
     align-items: center;
@@ -92,4 +93,9 @@ html{
         .about-right{
           padding: 20px;
         }
+    }
+    @media screen and (max-width:820px) and (min-width:760px){
+      .sep{
+        font-size: 1.5rem;
+      }
     }
