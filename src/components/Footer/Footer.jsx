@@ -40,7 +40,7 @@ text="Butwal-Golpark"
 <ContactItem
 icon={<IconContext.Provider value={{ color: "black", size:"33px", className: "global-class-name" }}>
 
-<a href='mailto:csitassociationofbmc@gmail.com'>
+<a href='mailto:csitassociationbmc@gmail.com'>
 
 <MdEmail   />
 </a>

@@ -130,7 +130,7 @@ h5 {
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
   .reviews--heading {
-    font-size: 20px;
+    font-size: 18px;
   }
   .parentwrapper {
     flex-direction: column;
@@ -184,7 +184,7 @@ h5 {
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .reviews--heading {
-    font-size: 28px;
+    font-size: 18px;
   }
   .parentwrapper {
     flex-direction: column;

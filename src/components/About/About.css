@@ -49,7 +49,7 @@ html {
 }
 @media screen and (max-width: 320px) and (min-width: 0px) {
   .a-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .about-card.bg {
     display: none;
@@ -133,7 +133,7 @@ html {
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .a-title {
-    font-size: 28px;
+    font-size: 18px;
   }
   .about {
     height: fit-content;
