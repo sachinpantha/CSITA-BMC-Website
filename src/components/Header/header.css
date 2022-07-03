@@ -1,31 +1,27 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.particles{
-    position: absolute;
-    inset: 0;
-    z-index: 99;
+.particles {
+  position: absolute;
+  inset: 0;
+  z-index: 99;
 }
-.header{
-    min-height: 100vh;
-    min-width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('../../Assets/Covers.JPG');
-   position: relative;
-    background-position: center;
-    background-size: cover;
+.header {
+  min-height: 100vh;
+  min-width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url("../../Assets/Covers.JPG");
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 @media screen and (max-width: 768px) {
-    .Typewriter{
-        font-size: 1.5rem;
-    }
+  .Typewriter {
+    font-size: 1.5rem;
+  }
 }
-
-

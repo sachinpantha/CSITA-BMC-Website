@@ -1,6 +1,6 @@
 import React from 'react'
 import Teams from '../Teams/Teams'
-import { teamdata } from '../data2'
+import { teamdata } from '../../data'
 import './Tlist.css'
 
 const Tlist = () => {
