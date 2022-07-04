@@ -4,7 +4,16 @@ import Sujan from "../../Team/Sujan.jpg";
 import Manoj from "../../Team/manoj.jpg";
 import Mahendra from "../../Team/mahendra.jpg";
 import Prakash from "../../Team/prakash.jpg";
+import Rabin from "../../Team/Rabin.jpg";
 export const Testidata = [
+  {
+    id: 1,
+    image: Rabin,
+    Name: "Rabin Pandey",
+    testimony: `Technology can be our closest companion, and technology can likewise be the greatest partypopper of our lives.It plays a major role in our lives.
+    As a part of CSIT Association of BMC, the most challenging part for me was to make the changes in directions, systems as well college guidelines which somehow got solved and which was possible by our team. Majority of innovation will be exhibit soon and lastly working with an energetic team leading by me was a wonderful experience ever in my lifetime.`,
+    Post: `Senior Advisor of CSITA-BMC`,
+  },
   {
     id: 1,
     image: Bishan,

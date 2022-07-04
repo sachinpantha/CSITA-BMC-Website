@@ -1,7 +1,8 @@
 import React from "react";
 import { BsFacebook } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 import "./Teams.css";
-const Teams = ({ img, Name, Post, Facebook }) => {
+const Teams = ({ img, Name, Post, Facebook, Github }) => {
   return (
     <div className="parent">
       <div>
@@ -10,10 +11,17 @@ const Teams = ({ img, Name, Post, Facebook }) => {
       <div className="naming">
         <div className="Name">{Name}</div>
         <div className="Post">{Post}</div>
+        <div className="social--icons">
         <div>
           <a href={Facebook} target="_blank">
-            <BsFacebook color="#3B5998" />
+            <BsFacebook size={"25px"} color="#3B5998" />
           </a>
+        </div>
+        <div>
+          <a href={Github} target="_blank">
+            <AiFillGithub size={"25px"} color="black" />
+          </a>
+        </div>
         </div>
       </div>
     </div>

@@ -81,6 +81,7 @@ export const teamdata = [
     img: IMG,
     Post: "President",
     Facebook: "https://www.facebook.com/Hustle.Sushan",
+    Github: "https://www.github.com/Sushantbz"
   },
   {
     id: 2,
@@ -88,6 +89,7 @@ export const teamdata = [
     img: IMG2,
     Post: "Vice-President",
     Facebook: "https://www.facebook.com/ArieS.Srr2",
+    Github: "https://www.github.com/theashishofc"
   },
   {
     id: 3,
@@ -95,6 +97,7 @@ export const teamdata = [
     img: IMG3,
     Post: "Vice-President",
     Facebook: "https://www.facebook.com/peedarp.pandey",
+    Github: "https://www.github.com/sachinpantha"
   },
   {
     id: 4,
@@ -102,6 +105,7 @@ export const teamdata = [
     img: IMG5,
     Post: "Secretary",
     Facebook: "https://www.facebook.com/keshab.bashyal.583",
+    Github: "https://www.github.com/sachinpantha"
   },
   {
     id: 5,
@@ -109,6 +113,7 @@ export const teamdata = [
     img: IMG4,
     Post: "Joint-Secretary",
     Facebook: "https://www.facebook.com/sachin.nihc",
+    Github: "https://www.github.com/sachinpantha"
   },
   {
     id: 6,
@@ -116,6 +121,7 @@ export const teamdata = [
     img: IMG9,
     Post: "Treasurer",
     Facebook: "https://www.facebook.com/profile.php?id=100022376144764",
+    Github: "https://www.github.com/Apsana3345"
   },
   {
     id: 7,
@@ -123,6 +129,7 @@ export const teamdata = [
     img: IMG8,
     Post: "Graphic Designer",
     Facebook: "https://www.facebook.com/tdm056",
+    Github: "https://www.github.com/Ravi056"
   },
   {
     id: 8,
@@ -130,6 +137,7 @@ export const teamdata = [
     img: IMG12,
     Post: "Graphic Designer",
     Facebook: "https://www.facebook.com/diamond.aryal.54",
+    Github: "https://www.github.com/debendra-aryal"
   },
   {
     id: 9,
@@ -137,6 +145,7 @@ export const teamdata = [
     img: IMG6,
     Post: "Tech Lead",
     Facebook: "https://www.facebook.com/itsmesarad",
+    Github: "https://www.github.com/sarad096"
   },
   {
     id: 11,
@@ -144,6 +153,7 @@ export const teamdata = [
     img: IMG11,
     Post: "Asst. Tech Lead",
     Facebook: "https://www.facebook.com/profile.php?id=100005500125257",
+    Github: "https://www.github.com/surajgautam27"
   },
   {
     id: 10,
@@ -151,6 +161,7 @@ export const teamdata = [
     img: IMG10,
     Post: "Executive Member",
     Facebook: "https://www.facebook.com/ritisha.ghimire.1",
+    Github: "https://www.github.com/RITISHAGHIMIRE"
   },
   {
     id: 12,
@@ -158,5 +169,6 @@ export const teamdata = [
     img: IMG7,
     Post: "Executive Member",
     Facebook: "https://www.facebook.com/xuudha.axcarya",
+    Github: "https://www.github.com/acharyasudha"
   },
 ];

@@ -9,7 +9,7 @@ const Tlist = () => {
       <div className='Title-hero'><h1>OUR TEAMS</h1></div>
         <div className="teamdata-list">
             {teamdata.map((item)=>(
-                <Teams key={item.id} Name={item.Name} img={item.img} Post={item.Post} Facebook={item.Facebook}/>
+                <Teams key={item.id} Name={item.Name} img={item.img} Post={item.Post} Facebook={item.Facebook} Github={item.Github}/>
             ))}
         </div>
     </div>
