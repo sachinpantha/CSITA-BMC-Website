@@ -5,8 +5,8 @@ import "swiper/css/autoplay";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import { Testidata } from "./Testidata";
-import { Partdata } from "./Partdata";
+import { Testidata } from "../../data";
+import { Partdata } from "../../data";
 import "./Testimonials.css";
 import { Pagination } from "swiper";
 import SwiperCore, { Autoplay } from "swiper";
