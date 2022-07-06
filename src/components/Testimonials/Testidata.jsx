@@ -18,7 +18,7 @@ export const Testidata = [
     id: 1,
     image: Bishan,
     Name: "Bishan Bashyal",
-    testimony: `CSIT Association of BMC is like a home to me, Collectively with our amazing team we learn many things togetherly.`,
+    testimony: `CSIT Association of BMC a group of highly energetic tech enthusiast, I remember founding this organization from scratch and now the new tenures took this organization to next level, more than i imagined. `,
     Post: `IT Officer and Founder President of CSITA-BMC`,
   },
   {
@@ -26,7 +26,7 @@ export const Testidata = [
     image: Saroj, //We are importing objects so no JSX
     Name: "Saroj Dahal",
     testimony:
-      '"My first session on “Roadmap to IT Career” organized by BMC was a memorable one . I felt a cosy aura while mentoring on the event. Truth to be told, I always had a good vibe with Butwal people and from this event,  I surely can say that , “ I felt it “  . Cheers to the Team"',
+      '"My first session on “Roadmap to IT Career” organized by CSIT Association of BMC was a memorable one . I felt a cosy aura while mentoring on the event. Truth to be told, I always had a good vibe with Butwal people and from this event,  I surely can say that , “ I felt it “  . Cheers to the Team"',
     Post: `Fullstack Developer and CTO at Cliffbyte`,
   },
   {

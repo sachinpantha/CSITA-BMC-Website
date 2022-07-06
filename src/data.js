@@ -97,7 +97,7 @@ export const teamdata = [
     img: IMG3,
     Post: "Vice-President",
     Facebook: "https://www.facebook.com/peedarp.pandey",
-    Github: "https://www.github.com/sachinpantha"
+    Github: "https://github.com/pradeep-yednap"
   },
   {
     id: 4,
@@ -105,7 +105,7 @@ export const teamdata = [
     img: IMG5,
     Post: "Secretary",
     Facebook: "https://www.facebook.com/keshab.bashyal.583",
-    Github: "https://www.github.com/sachinpantha"
+    Github: "https://github.com/KeshabBashyal421"
   },
   {
     id: 5,

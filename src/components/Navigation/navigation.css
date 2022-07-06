@@ -92,6 +92,9 @@
     background-color: #06283d;
   }
 }
+.toggle .logo img{
+  display: none;
+}
 .toggle .link {
   color: black;
 }
