@@ -11,10 +11,18 @@ body {
   margin: 0;
   padding: 0;
 }
+.reviews--heading{
+  font-size: 24px !important;
+}
 .WellWishers {
   padding: 1rem 0rem;
 }
-
+.swiper-pagination{
+  display: none;
+}
+.quoteIcon{
+fill: red !important;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;

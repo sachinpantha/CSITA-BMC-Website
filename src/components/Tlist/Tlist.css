@@ -1,10 +1,11 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-.Title-hero {
+.Title-hero>h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: red !important;
+  font-size: 24px !important;
 }
 .teamdata {
   justify-content: center;
@@ -15,7 +16,9 @@
   text-align: center;
  height: 100%;
 }
-
+.teamdata-list .parent{
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 9%);
+}
 .teamdata-list {
   align-items: center;
   background-color: #f2f6fb !important;

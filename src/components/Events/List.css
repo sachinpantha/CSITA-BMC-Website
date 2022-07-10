@@ -7,7 +7,7 @@ body {
 .event-heading {
   margin-top: 1rem;
   margin-bottom: 1rem;
-
+  font-size: 24px;
   color: red;
 }
 .pl {

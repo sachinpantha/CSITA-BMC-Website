@@ -3,10 +3,11 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/autoplay";
 // Import Swiper styles
+import {FaQuoteLeft} from 'react-icons/fa';
 import "swiper/css";
 import "swiper/css/pagination";
-import { Testidata } from "./Testidata";
-import { Partdata } from "./Partdata";
+import { Testidata } from "../../data";
+import { Partdata } from "../../data";
 import "./Testimonials.css";
 import { Pagination } from "swiper";
 import SwiperCore, { Autoplay } from "swiper";
@@ -42,7 +43,7 @@ const Testimonials = () => {
                         <h5>{item.Name}</h5>
                         <h5 className="secHeading">{item.Post}</h5>
                       </div>
-                      <p className="para">{item.testimony}</p>
+                      <p className="para"><FaQuoteLeft className="quoteIcon"/>{" "}{item.testimony}</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -70,6 +71,7 @@ const Testimonials = () => {
             {Partdata.map((items, key) => {
               return (
                 <div>
+                  
                   <SwiperSlide key={items.id}>
                     <img className="wrapperimg" src={items.Image} alt="" />
                   </SwiperSlide>

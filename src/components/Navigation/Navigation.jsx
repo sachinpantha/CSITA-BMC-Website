@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import IMG from "../../Assets/logohero.png";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiFillCloseSquare } from "react-icons/ai";
+import { MdClose } from "react-icons/md";
 import "./navigation.css";
 import { Link } from "react-scroll";
 import { Links } from "../../data";
@@ -29,7 +29,7 @@ const Navigation = () => {
         }}
       >
         {hideHam ? (
-          <AiFillCloseSquare color="#7676f1" className="close-icon" />
+          <MdClose color="#7676f1" className="close-icon" />
         ) : (
           <GiHamburgerMenu color="#7676f1" className="ham-icon" />
         )}
