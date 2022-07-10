@@ -1,9 +1,12 @@
+//Workshop data
 import mocktest from "./Assets/eventimg/mocktest.jpg";
 import frontendworkshop from "./Assets/eventimg/frontendworkshop.jpg";
 import futsal from "./Assets/eventimg/futsal.jpg";
 import graphicdesigning from "./Assets/eventimg/graphicdesigning.jpg";
 import itroadmap from "./Assets/eventimg/itroadmap.jpg";
 import workshopNET from "./Assets/eventimg/workshopNET.jpg";
+
+//Teams data
 import IMG from "./Team/Sushant.jpg";
 import IMG2 from "./Team/Ashish.jpg";
 import IMG3 from "./Team/pradeep.jpg";
@@ -25,6 +28,7 @@ import img6 from "./Assets/partners/6.png";
 import img7 from "./Assets/partners/7.png";
 import img8 from "./Assets/partners/8.png";
 import img9 from "./Assets/partners/9.jpg";
+//Testimonials data
 import Bishan from "./Team/bishan.jpg";
 import Saroj from "./Team/saroj.jpg";
 import Sujan from "./Team/Sujan.jpg";
@@ -32,6 +36,8 @@ import Manoj from "./Team/manoj.jpg";
 import Mahendra from "./Team/mahendra.jpg";
 import Prakash from "./Team/prakash.jpg";
 import Rabin from "./Team/Rabin.jpg";
+
+//Exporting Navbar Links
 export const Links = [
   {
     title: "Home",
@@ -58,6 +64,8 @@ export const Links = [
     path: "FooterDiv",
   },
 ];
+
+//Exporting Event details
 export const products = [
   {
     id: 1,
@@ -90,6 +98,8 @@ export const products = [
     img: workshopNET,
   },
 ];
+
+//Exporting Teams data
 export const teamdata = [
   {
     id: 1,
@@ -97,7 +107,7 @@ export const teamdata = [
     img: IMG,
     Post: "President",
     Facebook: "https://www.facebook.com/Hustle.Sushan",
-    Github: "https://www.github.com/Sushantbz"
+    Github: "https://www.github.com/Sushantbz",
   },
   {
     id: 2,
@@ -105,7 +115,7 @@ export const teamdata = [
     img: IMG2,
     Post: "Vice-President",
     Facebook: "https://www.facebook.com/ArieS.Srr2",
-    Github: "https://www.github.com/theashishofc"
+    Github: "https://www.github.com/theashishofc",
   },
   {
     id: 3,
@@ -113,7 +123,7 @@ export const teamdata = [
     img: IMG3,
     Post: "Vice-President",
     Facebook: "https://www.facebook.com/peedarp.pandey",
-    Github: "https://github.com/pradeep-yednap"
+    Github: "https://github.com/pradeep-yednap",
   },
   {
     id: 4,
@@ -121,7 +131,7 @@ export const teamdata = [
     img: IMG5,
     Post: "Secretary",
     Facebook: "https://www.facebook.com/keshab.bashyal.583",
-    Github: "https://github.com/KeshabBashyal421"
+    Github: "https://github.com/KeshabBashyal421",
   },
   {
     id: 5,
@@ -129,7 +139,7 @@ export const teamdata = [
     img: IMG4,
     Post: "Joint-Secretary",
     Facebook: "https://www.facebook.com/sachin.nihc",
-    Github: "https://www.github.com/sachinpantha"
+    Github: "https://www.github.com/sachinpantha",
   },
   {
     id: 6,
@@ -137,7 +147,7 @@ export const teamdata = [
     img: IMG9,
     Post: "Treasurer",
     Facebook: "https://www.facebook.com/profile.php?id=100022376144764",
-    Github: "https://www.github.com/Apsana3345"
+    Github: "https://www.github.com/Apsana3345",
   },
   {
     id: 7,
@@ -145,7 +155,7 @@ export const teamdata = [
     img: IMG8,
     Post: "Graphic Designer",
     Facebook: "https://www.facebook.com/tdm056",
-    Github: "https://www.github.com/Ravi056"
+    Github: "https://www.github.com/Ravi056",
   },
   {
     id: 8,
@@ -153,7 +163,7 @@ export const teamdata = [
     img: IMG12,
     Post: "Graphic Designer",
     Facebook: "https://www.facebook.com/diamond.aryal.54",
-    Github: "https://www.github.com/debendra-aryal"
+    Github: "https://www.github.com/debendra-aryal",
   },
   {
     id: 9,
@@ -161,7 +171,7 @@ export const teamdata = [
     img: IMG6,
     Post: "Tech Lead",
     Facebook: "https://www.facebook.com/itsmesarad",
-    Github: "https://www.github.com/sarad096"
+    Github: "https://www.github.com/sarad096",
   },
   {
     id: 11,
@@ -169,7 +179,7 @@ export const teamdata = [
     img: IMG11,
     Post: "Asst. Tech Lead",
     Facebook: "https://www.facebook.com/profile.php?id=100005500125257",
-    Github: "https://www.github.com/surajgautam27"
+    Github: "https://www.github.com/surajgautam27",
   },
   {
     id: 10,
@@ -177,7 +187,7 @@ export const teamdata = [
     img: IMG10,
     Post: "Executive Member",
     Facebook: "https://www.facebook.com/ritisha.ghimire.1",
-    Github: "https://www.github.com/RITISHAGHIMIRE"
+    Github: "https://www.github.com/RITISHAGHIMIRE",
   },
   {
     id: 12,
@@ -185,10 +195,11 @@ export const teamdata = [
     img: IMG7,
     Post: "Executive Member",
     Facebook: "https://www.facebook.com/xuudha.axcarya",
-    Github: "https://www.github.com/acharyasudha"
+    Github: "https://www.github.com/acharyasudha",
   },
 ];
 
+//Exporting testimonials data
 export const Partdata = [
   { id: 1, Image: img1 },
   { id: 2, Image: img2 },
@@ -200,6 +211,7 @@ export const Partdata = [
   { id: 8, Image: img8 },
   { id: 9, Image: img9 },
 ];
+
 export const Testidata = [
   {
     id: 1,
@@ -221,7 +233,7 @@ export const Testidata = [
     image: Saroj, //We are importing objects so no JSX
     Name: "Saroj Dahal",
     testimony:
-      'My first session on “Roadmap to IT Career” organized by CSIT Association of BMC was a memorable one . I felt a cosy aura while mentoring on the event. Truth to be told, I always had a good vibe with Butwal people and from this event,  I surely can say that , “ I felt it “  . Cheers to the Team',
+      '"My first session on “Roadmap to IT Career” organized by CSIT Association of BMC was a memorable one . I felt a cosy aura while mentoring on the event. Truth to be told, I always had a good vibe with Butwal people and from this event,  I surely can say that , “ I felt it “  . Cheers to the Team"',
     Post: `Fullstack Developer and CTO at Cliffbyte`,
   },
   {

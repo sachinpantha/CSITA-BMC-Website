@@ -14,10 +14,10 @@ const about = () => {
         <h1 className="a-title">About Us</h1>
         <div className="sep">
           <p className="a-sub" data-aos="fade-left">
-            "<span style={{ fontWeight: "bold" }}>CSIT Association of BMC</span>{" "}
+            <span style={{ fontWeight: "bold" }}>CSIT Association of BMC</span>{" "}
             CSIT Association of Butwal Multiple Campus is also a non-profitable
             organization inside Butwal Multiple Campus for the welfare of CSIT
-            Students since 2016”
+            Students since 2016
           </p>
           <br />
           <p className="a-desc" data-aos="fade-left" data-aos-delay={200}>
