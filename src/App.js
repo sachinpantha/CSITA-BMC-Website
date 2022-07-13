@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import Header from "../src/components/Header/Header";
 import About from "../src/components/About/About";
-import Loader from "./components/loader";
+import Loader from "./components/Loader/loader";
 import Navigation from "./components/Navigation/Navigation";
 import List from "../src/components/Events/List";
 import Tlist from "./components/Tlist/Tlist";
