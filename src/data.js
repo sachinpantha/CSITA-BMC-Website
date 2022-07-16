@@ -28,6 +28,7 @@ import img6 from "./Assets/partners/6.png";
 import img7 from "./Assets/partners/7.png";
 import img8 from "./Assets/partners/8.png";
 import img9 from "./Assets/partners/9.jpg";
+import img10 from "./Assets/partners/tech.png";
 //Testimonials data
 import Bishan from "./Team/bishan.jpg";
 import Saroj from "./Team/saroj.jpg";
@@ -210,6 +211,7 @@ export const Partdata = [
   { id: 7, Image: img7 },
   { id: 8, Image: img8 },
   { id: 9, Image: img9 },
+  { id: 10, Image: img10 },
 ];
 
 export const Testidata = [
