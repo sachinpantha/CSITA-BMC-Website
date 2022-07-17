@@ -202,16 +202,16 @@ export const teamdata = [
 
 //Exporting testimonials data
 export const Partdata = [
-  { id: 1, Image: img1 },
-  { id: 2, Image: img2 },
+  { id: 10, Image: img10 },
   { id: 3, Image: img3 },
   { id: 4, Image: img4 },
+  { id: 1, Image: img1 },
+  { id: 2, Image: img2 },
   { id: 5, Image: img5 },
   { id: 6, Image: img6 },
   { id: 7, Image: img7 },
   { id: 8, Image: img8 },
   { id: 9, Image: img9 },
-  { id: 10, Image: img10 },
 ];
 
 export const Testidata = [

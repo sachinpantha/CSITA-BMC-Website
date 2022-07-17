@@ -60,6 +60,7 @@ const Testimonials = () => {
             autoplay={{
               delay: 1000,
             }}
+            loop={true}
             speed={3000}
             spaceBetween={30}
             pagination={{
