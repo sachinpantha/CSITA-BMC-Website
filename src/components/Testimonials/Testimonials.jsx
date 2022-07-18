@@ -56,7 +56,7 @@ const Testimonials = () => {
         </div>
         <div className="imagePartners">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={5}
             autoplay={{
               delay: 1000,
             }}

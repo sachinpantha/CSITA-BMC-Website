@@ -113,7 +113,7 @@ const Footer = () => {
             >
               Sarad Gyawali
             </a>{" "}
-            &lt;3
+            &lt; / &gt;
           </h5>
         </div>
       </footer>

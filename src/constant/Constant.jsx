@@ -36,7 +36,7 @@ export const particlesConfig = {
       },
     },
     size: {
-      value: 3,
+      value: 1,
       random: true,
       anim: {
         enable: true,
@@ -54,7 +54,7 @@ export const particlesConfig = {
     },
     move: {
       enable: true,
-      speed: 4,
+      speed: 2,
       direction: "none",
       random: false,
       straight: false,

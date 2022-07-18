@@ -53,8 +53,8 @@ fill: red !important;
   height: 60vh;
 }
 .mySwiper2 {
-  height: 30vh;
-  width: 24rem;
+  height: 46vh;
+  width: 86rem;
 }
 .wrapperimg {
   border-radius: 100%;
@@ -109,6 +109,10 @@ h5 {
 /* For very small mobile devices  */
 
 @media screen and (max-width: 320px) and (min-width: 0px) {
+  .mySwiper2 {
+    height: 30vh;
+    width: 24rem;
+  }
   .reviews--heading {
     font-size: 16px;
   }
@@ -137,6 +141,10 @@ h5 {
 /* For Most of the Smartphones  */
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
+  .mySwiper2 {
+    height: 30vh;
+    width: 40rem;
+  }
   .reviews--heading {
     font-size: 18px;
   }
@@ -164,6 +172,10 @@ h5 {
 /* For low resolution Tablets  */
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
+  .mySwiper2 {
+    height: 30vh;
+    width: 24rem;
+  }
   .reviews--heading {
     font-size: 24px;
   }
@@ -191,6 +203,10 @@ h5 {
 /* For Tablets/Ipad  */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+  .mySwiper2 {
+    height: 30vh;
+    width: 65rem;
+  }
   .reviews--heading {
     font-size: 18px;
   }
