@@ -15,21 +15,22 @@ const about = () => {
         <div className="sep">
           <p className="a-sub" data-aos="fade-left">
             <span style={{ fontWeight: "bold" }}>CSIT Association of BMC</span>{" "}
-            CSIT Association of Butwal Multiple Campus is also a non-profitable
-            organization inside Butwal Multiple Campus for the welfare of CSIT
-            Students since 2016
+            is a non-profitable organization inside Butwal Multiple Campus
+            created for the welfare of CSIT Students by the CSIT students and
+            operating actively since 2016
           </p>
           <br />
           <p className="a-desc" data-aos="fade-left" data-aos-delay={200}>
-            We have been conducting tech and non-tech events workshops
-            internally. Similarly, we also play a part in assisting our college
+            We have been conducting several tech and non-tech workshops
+            internally and helping students to connect with national tech
+            community. Similarly, we also play a part in assisting our college
             department for technical assistance and provide suggestions based on
             technology criteria.
           </p>
           <br />
           <p className="a-desc" data-aos="fade-left" data-aos-delay={300}>
             We believe that the students should be provided with the relevant
-            skills to prepare them for their career and at last we are at Butwal
+            skills and platform to prepare them for their career and at last we are at Butwal
             Multiple Campus with the motive of helping students to address their
             problem as well.
           </p>
