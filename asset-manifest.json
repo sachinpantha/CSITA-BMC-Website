@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.675a0ec5.css",
-    "main.js": "/static/js/main.7ac41d1d.js",
+    "main.js": "/static/js/main.c36aae7a.js",
     "static/media/Rabin.jpg": "/static/media/Rabin.1fa6cb5f49fc50dc167a.jpg",
     "static/media/bishan.jpg": "/static/media/bishan.e9b63726be51248daa89.jpg",
     "static/media/sachin.jpg": "/static/media/sachin.467dbb7126223e6fb401.jpg",
@@ -21,12 +21,14 @@
     "static/media/mahendra.jpg": "/static/media/mahendra.3c7d7b34741c0aa07679.jpg",
     "static/media/graphicdesigning.jpg": "/static/media/graphicdesigning.6a50cc495d6e0e323b7a.jpg",
     "static/media/3.png": "/static/media/3.8609c024ff9c10658d45.png",
+    "static/media/suraj.jpg": "/static/media/suraj.56a410a64dc76815c9da.jpg",
     "static/media/mocktest.jpg": "/static/media/mocktest.2698c65ef2092a299554.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.bbacb21c339536b7d26e.jpg",
     "static/media/ritisha.jpeg": "/static/media/ritisha.db43681148ffe3cd0dbb.jpeg",
     "static/media/Sujan.jpg": "/static/media/Sujan.1669dd7d0891544b00ca.jpg",
     "static/media/pradeep.jpg": "/static/media/pradeep.07a3a439312d5508bb93.jpg",
     "static/media/5.jpg": "/static/media/5.b16ff06223684fd1a15c.jpg",
+    "static/media/sindhu.jpg": "/static/media/sindhu.33a8b19a41e887dc9309.jpg",
     "static/media/tech.png": "/static/media/tech.b81f627abc1e45b5cef7.png",
     "static/media/Sushant.jpg": "/static/media/Sushant.0bc0fe8dc270c8ab17c2.jpg",
     "static/media/8.png": "/static/media/8.5f35dc4d112e09c3c8ba.png",
@@ -36,14 +38,13 @@
     "static/media/7.png": "/static/media/7.efacc4ffd3c779e40e13.png",
     "static/media/sudha.jpg": "/static/media/sudha.904a708f2d2aa7a00952.jpg",
     "static/media/2.png": "/static/media/2.a0e258aaa37849b9a82c.png",
-    "static/media/suraj.jpg": "/static/media/suraj.5867de3e72e895402fc8.jpg",
     "static/media/9.jpg": "/static/media/9.8c14b0c8dc80f76412d9.jpg",
     "index.html": "/index.html",
     "main.675a0ec5.css.map": "/static/css/main.675a0ec5.css.map",
-    "main.7ac41d1d.js.map": "/static/js/main.7ac41d1d.js.map"
+    "main.c36aae7a.js.map": "/static/js/main.c36aae7a.js.map"
   },
   "entrypoints": [
     "static/css/main.675a0ec5.css",
-    "static/js/main.7ac41d1d.js"
+    "static/js/main.c36aae7a.js"
   ]
 }
