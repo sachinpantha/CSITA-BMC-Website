@@ -37,7 +37,7 @@ import Manoj from "./Team/manoj.jpg";
 import Mahendra from "./Team/mahendra.jpg";
 import Prakash from "./Team/prakash.jpg";
 import Rabin from "./Team/Rabin.jpg";
-
+import sindhu from "./Team/sindhu.jpg"
 //Exporting Navbar Links
 export const Links = [
   {
@@ -269,5 +269,13 @@ export const Testidata = [
     testimony:
       'It was a nice moment to share the experience with curious IT people at CSIT Association, BMC.',
     Post: `Fullstack Developer and founder at sathibhai.com`,
+  },
+  {
+    id: 7,
+    image: sindhu,
+    Name: "Sindhu Aryal",
+    testimony:
+      "Seeing the CSIT Association of BMC growing beautifully with the mission and vision of helping IT enthusiasts to find a way out of their IT career, widening the reach beyond the college and giving back to the community; gives me immense pleasure.Hats off to you guys for  your tireless efforts on shaping it in a way so that upcoming students don't have to face the same barriers as we did in the past. ",
+    Post: `Web Developer and President at Butwal Coder Girls`,
   },
 ];
