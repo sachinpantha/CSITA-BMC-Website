@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.675a0ec5.css",
-    "main.js": "/static/js/main.c36aae7a.js",
+    "main.css": "/static/css/main.59eb46dd.css",
+    "main.js": "/static/js/main.9d62f1ba.js",
+    "static/media/aboutimg.JPG": "/static/media/aboutimg.0b6f2a15ac051c4f5f7f.JPG",
     "static/media/Rabin.jpg": "/static/media/Rabin.1fa6cb5f49fc50dc167a.jpg",
     "static/media/bishan.jpg": "/static/media/bishan.e9b63726be51248daa89.jpg",
     "static/media/sachin.jpg": "/static/media/sachin.467dbb7126223e6fb401.jpg",
     "static/media/saradsir.jpg": "/static/media/saradsir.1d00c1d2d52051d74ba6.jpg",
     "static/media/Covers.JPG": "/static/media/Covers.1c3180e33810bb44def1.JPG",
     "static/media/saroj.jpg": "/static/media/saroj.eb492aa4f3e8c0bc616e.jpg",
+    "static/media/Sushant.jpg": "/static/media/Sushant.9d0f2ead4befc6960cce.jpg",
     "static/media/itroadmap.jpg": "/static/media/itroadmap.7aeea351d97eadb47c78.jpg",
     "static/media/futsal.jpg": "/static/media/futsal.c4100e0025cc43d60204.jpg",
     "static/media/prakash.jpg": "/static/media/prakash.3aa53edcea86629d14f7.jpg",
@@ -23,14 +25,12 @@
     "static/media/3.png": "/static/media/3.8609c024ff9c10658d45.png",
     "static/media/suraj.jpg": "/static/media/suraj.56a410a64dc76815c9da.jpg",
     "static/media/mocktest.jpg": "/static/media/mocktest.2698c65ef2092a299554.jpg",
-    "static/media/aboutimg.jpg": "/static/media/aboutimg.bbacb21c339536b7d26e.jpg",
     "static/media/ritisha.jpeg": "/static/media/ritisha.db43681148ffe3cd0dbb.jpeg",
     "static/media/Sujan.jpg": "/static/media/Sujan.1669dd7d0891544b00ca.jpg",
     "static/media/pradeep.jpg": "/static/media/pradeep.07a3a439312d5508bb93.jpg",
     "static/media/5.jpg": "/static/media/5.b16ff06223684fd1a15c.jpg",
     "static/media/sindhu.jpg": "/static/media/sindhu.33a8b19a41e887dc9309.jpg",
     "static/media/tech.png": "/static/media/tech.b81f627abc1e45b5cef7.png",
-    "static/media/Sushant.jpg": "/static/media/Sushant.0bc0fe8dc270c8ab17c2.jpg",
     "static/media/8.png": "/static/media/8.5f35dc4d112e09c3c8ba.png",
     "static/media/keshab.jpg": "/static/media/keshab.e53b4b2b6b3a2062d44b.jpg",
     "static/media/logohero.png": "/static/media/logohero.f04b3a78a98e04d9cc20.png",
@@ -40,11 +40,11 @@
     "static/media/2.png": "/static/media/2.a0e258aaa37849b9a82c.png",
     "static/media/9.jpg": "/static/media/9.8c14b0c8dc80f76412d9.jpg",
     "index.html": "/index.html",
-    "main.675a0ec5.css.map": "/static/css/main.675a0ec5.css.map",
-    "main.c36aae7a.js.map": "/static/js/main.c36aae7a.js.map"
+    "main.59eb46dd.css.map": "/static/css/main.59eb46dd.css.map",
+    "main.9d62f1ba.js.map": "/static/js/main.9d62f1ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.675a0ec5.css",
-    "static/js/main.c36aae7a.js"
+    "static/css/main.59eb46dd.css",
+    "static/js/main.9d62f1ba.js"
   ]
 }
