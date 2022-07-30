@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import IMG from "../../Assets/logohero.png";
+import IMG from "../../Assets/partners/logohero.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import "./navigation.css";

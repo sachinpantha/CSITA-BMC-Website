@@ -259,7 +259,7 @@ export const Testidata = [
     image: Mahendra,
     Name: "Mahendra Kandel",
     testimony:
-      'It was amazing experience to work with so energetic team at CSIT Association of BMC, It is a group of amazing talents which will surely take the institution to next level',
+      'I consider CSIT Association of BMC as a group of leaders of tech community who are always eager to impart knowledge and has willingness to see the change, Despite of being an organization inside academic boundary it always had contributed to national tech community, Proud to be a part of it and kudos to the new team.',
     Post: `Former President at CSITA-BMC`,
   },
   {

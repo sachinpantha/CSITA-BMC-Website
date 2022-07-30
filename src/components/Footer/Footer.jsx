@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../Assets/logohero.png";
+import logo from "../../Assets/partners/logohero.png";
 import { BsFillTelephoneFill, BsFacebook } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
