@@ -6,6 +6,12 @@ import { MdEmail } from "react-icons/md";
 import { IconContext } from "react-icons";
 import "./footer.css";
 const Footer = () => {
+  document.addEventListener('keyup', (e) => {
+    if (e.key === 'PrintScreen') {
+      navigator.clipboard.writeText('')
+      alert('You cannot take screenshot in this website')
+    }
+  })
   return (
     <div className="FooterDiv">
       <footer>
