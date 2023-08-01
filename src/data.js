@@ -5,20 +5,23 @@ import futsal from "./Assets/eventimg/futsal.jpg";
 import graphicdesigning from "./Assets/eventimg/graphicdesigning.jpg";
 import itroadmap from "./Assets/eventimg/itroadmap.jpg";
 import workshopNET from "./Assets/eventimg/workshopNET.jpg";
+import reactEvent from "./Assets/eventimg/reactEvent.jpg";
 
 //Teams data
-import IMG from "./Team/Sushant.jpg";
-import IMG2 from "./Team/Ashish.jpg";
-import IMG3 from "./Team/pradeep.jpg";
-import IMG4 from "./Team/sachin.jpg";
-import IMG5 from "./Team/keshab.jpg";
-import IMG6 from "./Team/saradsir.jpg";
-import IMG7 from "./Team/sudha.jpg";
-import IMG8 from "./Team/ravi.jpg";
-import IMG9 from "./Team/apsana.jpg";
-import IMG10 from "./Team/ritisha.jpeg";
-import IMG11 from "./Team/suraj.jpg";
-import IMG12 from "./Team/debendra.jpg";
+import IMG1 from "./Team/keshab.jpg";
+import IMG2 from "./Team/sachin.jpg";
+import IMG3 from "./Team/debendra.jpg";
+import IMG4 from "./Team/suman.jpg";
+import IMG5 from "./Team/saradsir.jpg";
+import IMG6 from "./Team/sujanb.jpg";
+import IMG7 from "./Team/bibek.jpg";
+import IMG8 from "./Team/anuradha.jpg";
+import IMG9 from "./Team/sunil.jpg";
+import IMG10 from "./Team/sanchit.jpeg";
+import IMG11 from "./Team/bipin.jpg";
+import IMG12 from "./Team/kritan.jpg";
+import IMG13 from "./Team/pratik.jpg";
+import IMG14 from "./Team/shikshya.jpg";
 import img1 from "./Assets/partners/1.png";
 import img2 from "./Assets/partners/2.png";
 import img3 from "./Assets/partners/3.png";
@@ -98,105 +101,112 @@ export const products = [
     title: ".NET Workshop",
     img: workshopNET,
   },
+  {
+    id: 7,
+    title: "React Workshop",
+    img: reactEvent,
+  },
 ];
 
 //Exporting Teams data
 export const teamdata = [
   {
     id: 1,
-    Name: "SUSHANT BANJADE",
-    img: IMG,
+    Name: "KESHAB BASHYAL",
+    img: IMG1,
     Post: "President",
-    Facebook: "https://www.facebook.com/Hustle.Sushan",
-    Github: "https://www.github.com/Sushantbz",
+    Facebook: "https://www.facebook.com/keshab.bashyal.583",
   },
   {
     id: 2,
-    Name: "AASHISH SHARMA",
+    Name: "SACHIN PANTHA",
     img: IMG2,
     Post: "Vice-President",
-    Facebook: "https://www.facebook.com/ArieS.Srr2",
-    Github: "https://www.github.com/theashishofc",
+    Facebook: "https://www.facebook.com/sachin.nihc",
   },
   {
     id: 3,
-    Name: "PRADEEP PANDEY",
+    Name: "DEBENDRA ARYAL",
     img: IMG3,
-    Post: "Vice-President",
-    Facebook: "https://www.facebook.com/peedarp.pandey",
-    Github: "https://github.com/pradeep-yednap",
+    Post: "Secretary",
+    Facebook: "https://www.facebook.com/diamond.aryal.54",
   },
   {
     id: 4,
-    Name: "KESHAB BASHYAL",
-    img: IMG5,
-    Post: "Secretary",
-    Facebook: "https://www.facebook.com/keshab.bashyal.583",
-    Github: "https://github.com/KeshabBashyal421",
+    Name: "SUMAN BHATTARAI",
+    img: IMG4,
+    Post: "Joint-Secretary",
+    Facebook: "https://www.facebook.com/suman.bhattarai.986",
   },
   {
     id: 5,
-    Name: "SACHIN PANTHA",
-    img: IMG4,
-    Post: "Joint-Secretary",
-    Facebook: "https://www.facebook.com/sachin.nihc",
-    Github: "https://www.github.com/sachinpantha",
+    Name: "SARAD GYAWALI",
+    img: IMG5,
+    Post: "TREASURER",
+    Facebook: "https://www.facebook.com/itsmesarad",
+  },
+  {
+    id: 5,
+    Name: "SUJAN KHATRI",
+    img: IMG6,
+    Post: "Tech-Lead",
+    Facebook: "https://www.facebook.com/sujansince2003",
   },
   {
     id: 6,
-    Name: "APSANA SHARMA",
-    img: IMG9,
-    Post: "Treasurer",
-    Facebook: "https://www.facebook.com/profile.php?id=100022376144764",
-    Github: "https://www.github.com/Apsana3345",
+    Name: "BIBEK ACHARYA",
+    img: IMG7,
+    Post: "Ass. Tech Lead",
+    Facebook: "https://www.facebook.com/Bibekacharya2059",
   },
   {
     id: 7,
-    Name: "RAVI ADHIKARI",
+    Name: "ANURADHA PANDEY",
     img: IMG8,
     Post: "Graphic Designer",
-    Facebook: "https://www.facebook.com/tdm056",
-    Github: "https://www.github.com/Ravi056",
+    Facebook: "https://www.facebook.com/profile.php?id=100035413025994",
   },
   {
     id: 8,
-    Name: "DEBENDRA ARYAL",
-    img: IMG12,
-    Post: "Graphic Designer",
-    Facebook: "https://www.facebook.com/diamond.aryal.54",
-    Github: "https://www.github.com/debendra-aryal",
+    Name: "SUNIL BHATTARAI",
+    img: IMG9,
+    Post: "Executive Member",
+    Facebook: "https://www.facebook.com/sunil.bhattarai.2056",
   },
   {
     id: 9,
-    Name: "SARAD GYAWALI",
-    img: IMG6,
-    Post: "Tech Lead",
-    Facebook: "https://www.facebook.com/itsmesarad",
-    Github: "https://www.github.com/sarad096",
+    Name: "SANCHIT PANDEY",
+    img: IMG10,
+    Post: "Executive Member",
+    Facebook: "https://www.facebook.com/Sanchit.Pandeyy",
   },
   {
     id: 11,
-    Name: "SURAJ GAUTAM",
+    Name: "BIPIN KHATRI",
     img: IMG11,
-    Post: "Asst. Tech Lead",
-    Facebook: "https://www.facebook.com/profile.php?id=100005500125257",
-    Github: "https://www.github.com/surajgautam27",
+    Post: "Executive Member",
+    Facebook: "https://www.facebook.com/im.bipo",
   },
   {
     id: 10,
-    Name: "RITISHA GHIMIRE",
-    img: IMG10,
+    Name: "KRITAN ARYAL",
+    img: IMG12,
     Post: "Executive Member",
-    Facebook: "https://www.facebook.com/ritisha.ghimire.1",
-    Github: "https://www.github.com/RITISHAGHIMIRE",
+    Facebook: "https://www.facebook.com/aryal.kritan",
   },
   {
     id: 12,
-    Name: "SUDHA ACHARYA",
-    img: IMG7,
+    Name: "PRATIK ARYAL",
+    img: IMG13,
     Post: "Executive Member",
-    Facebook: "https://www.facebook.com/xuudha.axcarya",
-    Github: "https://www.github.com/acharyasudha",
+    Facebook: "https://www.facebook.com/pratik.aryal.9615",
+  },
+  {
+    id: 13,
+    Name: "SHIKSHYA ACHARYA",
+    img: IMG14,
+    Post: "Executive Member",
+    Facebook: "https://www.facebook.com/dikshya.acharya.792",
   },
 ];
 
